@@ -1,7 +1,7 @@
 # Code-Challenge-1
 ## Description
 
-This project contains solutions for Code Challenge 1:bodaFareCalculator,chaiCalculator and mobileMoneyCalculator, focusing on problem-solving and coding best practices.
+This project contains solutions for Code-Challenge-1:bodaFareCalculator,chaiCalculator and mobileMoneyCalculator, focusing on problem-solving and coding best practices.
 
 ## Project Setup
 
