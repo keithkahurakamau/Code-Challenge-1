@@ -20,5 +20,5 @@ const distance = Number(input);
 if (!isNaN(distance) && distance >= 0) {
     calculateBodaFare(distance);
 } else {
-    console.log("Tafadhali ingiza nambari sahihi ya kilomita.");
+    console.error("Tafadhali ingiza nambari sahihi ya kilomita.");
 }

@@ -27,7 +27,7 @@ const input = prompt('Unatuma Ngapi? (KES): ');// Prompt user to enter the amoun
 const amount = Number(input);   // Convert input to a number to avoid string issues in calculations.
 
 if (isNaN(amount) || amount <= 0) {
-    console.log('Please enter a valid positive number.');// Check if the input is a valid positive number.
+    console.error('Please enter a valid positive number.');// Check if the input is a valid positive number.
 } else {
     estimateTransactionFee(amount);// Call the function to estimate the transaction fee with the provided amount.
 }

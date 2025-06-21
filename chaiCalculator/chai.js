@@ -28,5 +28,5 @@ function calculateChaiIngredients(numberOfCups) {
 if (!isNaN(numberOfCups) && numberOfCups > 0) {
     calculateChaiIngredients(numberOfCups);
 } else {
-    console.log("Please enter a valid number of cups.");
+    console.error("Please enter a valid number of cups.");
 }
